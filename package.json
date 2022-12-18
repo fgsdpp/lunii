@@ -1,0 +1,16 @@
+{
+  "name": "lunii-urrl",
+  "version": "1.0.0",
+  "description": "Lunii URRL test project",
+  "main": "index.js",
+  "scripts": {
+    "test": "cd backend && npm run test",
+    "dev": "concurrently \"(cd backend && npm run dev)\" \"(cd frontend && npm run dev)\"",
+    "postinstall": "(cd frontend && npm i); (cd backend && npm i)"
+  },
+  "author": "Bruno MARQUES <bruno@lookup-media.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
