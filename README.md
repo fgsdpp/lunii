@@ -1,5 +1,5 @@
 # INSTALLATION
-Run `npm i` in this folder
+Run `npm i` in this folder. This should be working on a *NIX environnement (or WSL on windows)
 
 # RUN LOCALLY
 Run `npm run dev` in this folder
